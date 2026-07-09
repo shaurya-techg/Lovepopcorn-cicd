@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mx-auto p-6">
+
+    <h1 class="text-3xl font-bold">
+        {{ movie.title }}
+    </h1>
+
+    <p>Genre: {{ movie.genre }}</p>
+
+    <p>Release Year: {{ movie.release_year }}</p>
+
+    <p>Rating: {{ movie.rating }}</p>
+
+    <p class="mt-4">
+        {{ movie.description }}
+    </p>
+
+    <a href="{% url 'movie_list' %}"
+       class="text-blue-600">
+        ← Back to Movies
+    </a>
+
+</div>
+{% endblock %}

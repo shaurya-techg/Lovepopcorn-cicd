@@ -8,7 +8,7 @@ class MovieAdmin(admin.ModelAdmin):
         "title",
         "genre",
         "release_year",
-        "imdb_rating",
+        "rating",
     )
 
     search_fields = (
