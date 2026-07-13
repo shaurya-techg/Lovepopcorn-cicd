@@ -1,0 +1,38 @@
+[
+    {
+        "model": "movies.movie",
+        "pk": 1,
+        "fields": {
+            "title": "Interstellar",
+            "genre": "Sci-Fi",
+            "release_year": 2014,
+            "rating": "8.7",
+            "description": "A team travels through a wormhole to save humanity.",
+            "poster_url": ""
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 2,
+        "fields": {
+            "title": "Inception",
+            "genre": "Sci-Fi",
+            "release_year": 2010,
+            "rating": "8.8",
+            "description": "Dream within a dream.",
+            "poster_url": ""
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 3,
+        "fields": {
+            "title": "The Dark Knight",
+            "genre": "Action",
+            "release_year": 2008,
+            "rating": "9.0",
+            "description": "Batman faces the a formidible criminal mastermind.",
+            "poster_url": ""
+        }
+    }
+]
